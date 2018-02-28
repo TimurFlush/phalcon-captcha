@@ -1,0 +1,21 @@
+{
+  "name": "timur-flush/phalcon-captcha",
+  "description": "The captcha extension of the Phalcon framework.",
+  "license": "Apache-2.0",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "flush02"
+    }
+  ],
+  "require": {
+    "php": "^7.2.0",
+    "ext-phalcon": "^3.3.0",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "TimurFlush\\PhalconCaptcha\\": "src/"
+    }
+  }
+}
