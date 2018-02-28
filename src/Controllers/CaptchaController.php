@@ -56,9 +56,9 @@ class CaptchaController extends Controller
 
                 $matches = [];
                 if (preg_match('/^(.+)-(.+)-(.+)-(.+)$/', $params[2], $matches)){
-                    $this->setBackgroundColor((int)$matches[1], (int)$matches[2], (int)$matches[3], (int)$matches[4]);
+                    $this->setBackgroundRGBA((int)$matches[1], (int)$matches[2], (int)$matches[3], (int)$matches[4]);
                 }else if (preg_match('/^(.+)-(.+)-(.+)$/', $params[2], $matches)){
-                    $this->setBackgroundColor((int)$matches[1], (int)$matches[2], (int)$matches[3]);
+                    $this->setBackgroundRGBA((int)$matches[1], (int)$matches[2], (int)$matches[3]);
                 }else{
                     break;
                 }
