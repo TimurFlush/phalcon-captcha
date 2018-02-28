@@ -142,6 +142,8 @@ Phalcon ^3.3.0
 
 PHP ^7.2.0
 
+cURL, mbstring
+
 ## Автор
 Timur Flush
 
