@@ -5,7 +5,7 @@ namespace TimurFlush\PhalconCaptcha;
 /**
  * Interface AdapterInterface
  * @package TimurFlush\PhalconCaptcha
- * @version 1.0.0
+ * @version 1.0.1
  * @author Timur Flush
  */
 interface AdapterInterface

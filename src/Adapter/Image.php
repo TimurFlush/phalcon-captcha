@@ -8,7 +8,7 @@ use TimurFlush\PhalconCaptcha\AdapterInterface;
 /**
  * Class Drawer
  * @package TimurFlush\PhalconCaptcha
- * @version 1.0.0
+ * @version 1.0.1
  * @author Timur Flush
  */
 class Image extends Adapter implements AdapterInterface

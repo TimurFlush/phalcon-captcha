@@ -7,7 +7,7 @@ use Phalcon\Mvc\Controller;
 /**
  * Class CaptchaController
  * @package TimurFlush\PhalconCaptcha\Controllers
- * @version 1.0.0
+ * @version 1.0.1
  * @author Timur Flush
  */
 class CaptchaController extends Controller
