@@ -80,7 +80,7 @@ class Form extends \Phalcon\Forms\Form
 ```
 <?php
 
-class Form extends \Phalcon\Mvc\Controller
+class UserController extends \Phalcon\Mvc\Controller
 {
     public function loginAction()
     {
@@ -93,10 +93,9 @@ class Form extends \Phalcon\Mvc\Controller
                     break;
                 }
             }while(false);
-            
+        }
             $this->view->form = $form;
             echo $this->view->render('login.html');
-        }
     }
 }
 ```
