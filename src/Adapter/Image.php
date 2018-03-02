@@ -86,7 +86,7 @@ class Image extends Adapter implements AdapterInterface
     public function getImage(array $parameters = [])
     {
         $url = '';
-        if (isset($settings['width'], $settings['height'], $settings['font_size'])){
+        if (isset($parameters['width'], $parameters['height'], $parameters['font_size'])){
 
             $url .= join('-', [
                 $parameters['width'],
@@ -106,7 +106,7 @@ class Image extends Adapter implements AdapterInterface
                         ? '-' . $parameters['font']['A']
                         : ''
                     );
-                if (isset($settings['bg']['R'], $parameters['bg']['G'], $parameters['bg']['B'])){
+                if (isset($parameters['bg']['R'], $parameters['bg']['G'], $parameters['bg']['B'])){
                     $url .=
                         '/'
                         . join('-', [
@@ -125,11 +125,10 @@ class Image extends Adapter implements AdapterInterface
 
         return \Phalcon\Tag::image(
             array_merge(
-                $parameters,
                 [
                     'src' => $this->url->get([
                         'for' => 'captcha',
-                        'params' => $url
+                        'params' => (string)$url
                     ])
                 ]
             )
