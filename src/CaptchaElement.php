@@ -8,7 +8,7 @@ use Phalcon\Forms\ElementInterface;
 /**
  * Class CaptchaElement
  * @package TimurFlush\PhalconCaptcha
- * @version 1.0.1
+ * @version 1.0.2
  * @author Timur Flush
  */
 class CaptchaElement extends Element implements ElementInterface

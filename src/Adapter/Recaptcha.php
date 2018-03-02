@@ -9,7 +9,7 @@ use TimurFlush\PhalconCaptcha\AdapterInterface;
 /**
  * Class Recaptcha
  * @package TimurFlush\PhalconCaptcha\Adapter
- * @version 1.0.1
+ * @version 1.0.2
  * @author Timur Flush
  */
 class Recaptcha extends Adapter implements AdapterInterface
