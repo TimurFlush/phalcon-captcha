@@ -7,7 +7,7 @@ use Phalcon\Mvc\Router\Group;
 /**
  * Class Captcha
  * @package TimurFlush\PhalconCaptcha\Routes
- * @version 1.0.0
+ * @version 1.0.3
  * @author Timur Flush
  */
 class Captcha extends Group

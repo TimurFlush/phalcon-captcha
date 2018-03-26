@@ -11,7 +11,7 @@ use TimurFlush\PhalconCaptcha\Adapter\Recaptcha as RecaptchaAdapter;
 /**
  * Class CaptchaValidator
  * @package TimurFlush\PhalconCaptcha
- * @version 1.0.2
+ * @version 1.0.3
  * @author Timur Flush
  */
 class CaptchaValidator extends Validator implements Validation\ValidatorInterface

@@ -5,7 +5,7 @@ namespace TimurFlush\PhalconCaptcha;
 /**
  * Class Config
  * @package TimurFlush\PhalconCaptcha
- * @version 1.0.2
+ * @version 1.0.3
  * @author Timur Flush
  */
 class Config

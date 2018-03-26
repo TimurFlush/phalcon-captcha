@@ -1,7 +1,8 @@
 {
   "name": "timur-flush/phalcon-captcha",
   "description": "The captcha extension of the Phalcon framework.",
-  "license": "Apache-2.0",
+  "license": "BSD-3-Clause",
+  "version": "1.0.3",
   "minimum-stability": "stable",
   "authors": [
     {
